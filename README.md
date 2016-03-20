@@ -21,5 +21,5 @@ right_layout:add(battery_widget)
 ```
 
 # Usage
-Shows your remaining battery as a percentage, alerts you when to go below 15%
+Shows your remaining battery as a percentage, alerts you when to go below 15%. Underneath the hood it just polls `acpi` every 10 seconds.
 
